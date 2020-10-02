@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\ProtoXlsCs\goods_info.cs" />
     <Compile Include="Assets\Script\UdpAsyncClient.cs" />
     <Compile Include="Assets\Script\UdpAsyncServer.cs" />
     <Compile Include="Assets\Script\UdpManager.cs" />
@@ -248,6 +249,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.10f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>/Users/XH5/code/SocketGameDemo/Assets/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.10f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
